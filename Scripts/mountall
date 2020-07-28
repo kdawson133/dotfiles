@@ -1,0 +1,10 @@
+#!/bin/bash
+mount -t smbfs //oxygen/Code /Users/ktdawson/Server/Code
+
+mount -t smbfs //oxygen/Data /Users/ktdawson/Server/Data
+
+mount -t smbfs //oxygen/Media /Users/ktdawson/Server/Media
+
+mount -t smbfs //oxygen/Music /Users/ktdawson/Server/Music
+
+mount -t smbfs //oxygen/Torrents /Users/ktdawson/Server/Torrents
