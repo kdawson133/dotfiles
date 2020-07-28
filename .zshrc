@@ -109,6 +109,10 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias Serve='python3 -m http.server 8000 --bind 127.0.0.1'
 alias python='/usr/bin/python3'
 alias pip='/usr/bin/pip3'
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
 # Exports
 export TERM=xterm-256color
 export EDITOR='/usr/bin/vim'
