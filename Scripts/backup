@@ -1,0 +1,13 @@
+#!/bin/sh
+sudo mount -t cifs -o uid=ktdawson,credentials=$HOME/.smbfile //oxygen/Data /media/oxygen
+exitcode=1 
+#do check if network drive is mounted
+if test -e '/media/oxygen';then 
+exitcode=0
+#from folder to usb if the files are newers
+rsync -avzh --delete --exclude={'Documents/*','Downloads/*','gems/*','GIT/*','gPodder/*','Music/*','Nextcloud/*','Pictures/*','Public/*','Videos/*','VirtualBox*/*','.cache/*','.cinnamon/*','.gem/*','.gnome/*','.local/*','.mozilla/*','.npm/*','.nv/*','.steam/*'} --include={'.config/*','.zshrc','.ssh/*','git*'} $HOME/.* /media/oxygen/iridium/ 
+
+sudo umount /media/oxygen
+fi 
+#if the flash is not mounted exit with exitcode=1 
+exit $exitcode
