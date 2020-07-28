@@ -1,3 +1,3 @@
 # Dotfiles
-My Congig files.
+`silver.element.lan` configuration files.
 
