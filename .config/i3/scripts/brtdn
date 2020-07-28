@@ -1,0 +1,2 @@
+#!/bin/sh
+brightnessctl --class=backlight set 10%-
