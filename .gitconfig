@@ -1,0 +1,13 @@
+[user]
+	email = kdawson133@gmail.com
+	name = kdawson133
+[mergetool]
+	keepBackup = true
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[mergetool "gitblade"]
+	cmd = \"/Applications/GitBlade.app/Contents/MacOS/GitBlade\" -c \"\"
+	trustExitCode = true
