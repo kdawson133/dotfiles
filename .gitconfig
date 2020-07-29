@@ -1,0 +1,12 @@
+[user]
+	name = kdawson133
+	email = kdawson133@gmail.com
+[credential]
+	helper = store
+[push]
+	default = simple
+[gui]
+	editor = subl
+[global]
+[pull]
+	rebase = false
