@@ -35,6 +35,7 @@ Plug 'mbbill/undotree'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'emmetio/emmet'
+Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
