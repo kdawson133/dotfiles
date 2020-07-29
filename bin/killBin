@@ -1,0 +1,12 @@
+#!/bin/bash
+clear
+echo 'Removing all Recycled files...'
+find /oxygen/*/.recycle/ -type f -delete
+echo 'Removing all empty directories...'
+find /oxygen/*/.recycle/ -type d -empty -delete
+echo 'Done!'
+
+ 
+
+
+
