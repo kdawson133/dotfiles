@@ -24,7 +24,7 @@ set undofile
 set incsearch
 
 set colorcolumn=132
-highlight ColorColumn ctermbg=0 guibg=lighgrey
+highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
 
