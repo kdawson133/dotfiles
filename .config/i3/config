@@ -224,7 +224,7 @@ bar {
 		status_command bumblebee-status \
 		-t iceberg-powerline \
 		-m playerctl arch-update disk memory cpu2 nic bluetooth pasink pasource time date system \
-	    -p disk.format="{percent:3.00f}%" memory.format="{percent:3.00f}%" nic.states="^down" cpu2.layout="cpu2.cpuload" time.format="%H:%M:%S" time.interval=1s arch-update.interval=60 date.format="%d-%b-%y"
+	    -p disk.format="{percent:3.00f}%" memory.format="{percent:3.00f}%" nic.states="^down" cpu2.layout="cpu2.cpuload" time.format="%H:%M:%S" time.interval=1s arch-update.interval=60m date.format="%d-%b-%y"
         colors {
         		background $barcolor
         		separator $sepcolor
@@ -242,7 +242,7 @@ exec_always setxkbmap us
 exec gnome-keyring-daemon --start --components=secrets
 
 # Custom Keybindings
-bindsym $mod+F1 exec terminator
+# bindsym $mod+F1 exec terminator
 bindsym $mod+F2 exec firefox
 bindsym $mod+shift+F2 exec google-chrome-stable
 bindsym $mod+F3 exec audacious

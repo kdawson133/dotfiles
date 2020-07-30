@@ -125,7 +125,10 @@ alias Serve='python3 -m http.server 8000 --bind 127.0.0.1'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -I'
-
+# set PATH so it includes user's private Script bin if it exists
+if [ -d "$HOME/Scripts" ] ; then
+    PATH="$HOME/Scripts:$PATH"
+fi
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"

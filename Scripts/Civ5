@@ -1,2 +1,4 @@
 #!/bin/sh
 taskset -c 0-7 steam steam://rungameid/8930
+killall Civ5
+
