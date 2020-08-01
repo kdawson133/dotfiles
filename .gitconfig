@@ -20,3 +20,5 @@
 [mergetool "gitblade"]
 	cmd = \"/Applications/GitBlade.app/Contents/MacOS/GitBlade\" -c \"\"
 	trustExitCode = true
+[pull]
+	rebase = false
