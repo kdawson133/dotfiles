@@ -15,7 +15,7 @@
 [push]
 	default = simple
 [gui]
-	editor = subl
+	editor = vim
 [global]
 [pull]
 	rebase = false
