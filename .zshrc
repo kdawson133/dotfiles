@@ -110,6 +110,8 @@ alias c="clear"
 alias q="exit"
 alias update="brew update && brew upgrade"
 alias dotfiles="/usr/local/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
+alias dit="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
+alias ditpush="dit push origin silver"
 # python
 alias python='/usr/local/bin/python3'
 alias pip='/usr/local/bin/pip3'
