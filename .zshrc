@@ -79,6 +79,7 @@ ENABLE_CORRECTION="true"
 plugins=(
 			git
 			sublime
+            extract
 		)
 
 source $ZSH/oh-my-zsh.sh
@@ -115,6 +116,7 @@ alias svi='sudo vim'
 alias zshrc="vim $HOME/.zshrc"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias dit="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
+alias ditpush="dit push origin iridium"
 alias t='terminator'
 alias q='exit'
 alias update="sudo pacman -Syu --noconfirm"
