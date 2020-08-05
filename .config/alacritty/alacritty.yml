@@ -1,0 +1,92 @@
+#  _       _                               __ ____ ____  
+# | |     | |                             /_ |___ \___ \ 
+# | | ____| | __ ___      _____  ___  _ __ | | __) |__) |
+# | |/ / _` |/ _` \ \ /\ / / __|/ _ \| '_ \| ||__ <|__ < 
+# |   < (_| | (_| |\ V  V /\__ \ (_) | | | | |___) |__) |
+# |_|\_\__,_|\__,_| \_/\_/ |___/\___/|_| |_|_|____/____/ 
+#
+# https://github.com/kdawson133 @kirk133
+#
+# Window Customization
+window:
+  dimensions:
+    columns: 140
+    lines: 38
+  padding:
+    x: 15
+    y: 15
+  decorations: full
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+background_opacity: 0.75
+
+window.dynamic_title: true
+
+# Font Customization
+font:
+  normal:
+    family: Roboto Mono for Powerline
+    style: Regular
+  bold:
+    family: Roboto Mono for Powerline
+    style: Bold
+  italic:
+    family: Roboto Mono for Powerline
+    style: Italic
+  size: 20
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+  use_thin_strokes: false
+  debug:
+    persistent_logging: false
+
+draw_bold_text_with_bright_colors: true
+
+# Colors (Solarized Dark)
+colors:
+  # Default colors
+  primary:
+    background: '0x002b36'
+    foreground: '0x839496'
+
+  # Normal colors
+  normal:
+    black:   '0x073642'
+    red:     '0xdc322f'
+    green:   '0x859900'
+    yellow:  '0xb58900'
+    blue:    '0x268bd2'
+    magenta: '0xd33682'
+    cyan:    '0x2aa198'
+    white:   '0xeee8d5'
+
+  # Bright colors
+  bright:
+    black:   '0x002b36'
+    red:     '0xcb4b16'
+    green:   '0x586e75'
+    yellow:  '0x657b83'
+    blue:    '0x839496'
+    magenta: '0x6c71c4'
+    cyan:    '0x93a1a1'
+    white:   '0xfdf6e3'
+
+  selection:
+    text: '0xffffff'
+    background: '0xdc3232'
+    white:   '0xffffff'
+
+cursor:
+  style: Block
+  unfocused_hollow: true
+
+key_bindings:
+  - { key: N, mods: Control, action: SpawnNewInstance }
+
