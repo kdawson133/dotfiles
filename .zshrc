@@ -116,6 +116,7 @@ alias t='terminator'
 alias vi='vim'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias dit="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
+alias ditpush="dit push origin neon"
 alias Serve='python3 -m http.server 8000 --bind 127.0.0.1'
 alias python='/usr/bin/python3'
 alias pip='/usr/bin/pip3'
