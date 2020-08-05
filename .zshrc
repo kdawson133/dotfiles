@@ -114,6 +114,7 @@ alias vi=vim
 alias svi='sudo vim'
 alias zshrc="vim $HOME/.zshrc"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
+alias dit="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias t='terminator'
 alias q='exit'
 alias update="sudo pacman -Syu --noconfirm"

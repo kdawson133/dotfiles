@@ -3,7 +3,6 @@
 [keybindings]
 [profiles]
   [[default]]
-    background_darkness = 0.3
     background_type = transparent
     cursor_color = "#aaaaaa"
     font = Hack Nerd Font Mono 14
