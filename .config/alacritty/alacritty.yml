@@ -21,7 +21,7 @@ scrolling:
   history: 10000
   multiplier: 3
 
-background_opacity: 0.75
+background_opacity: 0.85
 
 window.dynamic_title: true
 
@@ -89,6 +89,4 @@ cursor:
 
 key_bindings:
   - { key: N, mods: Control, action: SpawnNewInstance }
-
-
 
