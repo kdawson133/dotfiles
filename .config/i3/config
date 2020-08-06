@@ -242,6 +242,7 @@ exec_always setxkbmap us
 exec gnome-keyring-daemon --start --components=secrets
 
 # Custom Keybindings
+bindsym $mod+F11 exec qutebrowser
 bindsym $mod+F1 exec terminator
 bindsym $mod+shift+F1 exec gnome-terminal 
 bindsym $mod+F2 exec firefox
