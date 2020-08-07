@@ -18,4 +18,5 @@ alias zps='sudo zpool status'
 alias trim='sudo fstrim / -v'
 alias trimlog='cat /var/log/trim.log'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
-
+alias dit="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
+alias dotpush='dit push origin oxygen'
