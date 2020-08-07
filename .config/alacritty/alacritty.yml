@@ -21,7 +21,7 @@ scrolling:
   history: 10000
   multiplier: 3
 
-background_opacity: 0.75
+background_opacity: 0.80
 
 window.dynamic_title: true
 
@@ -36,7 +36,7 @@ font:
   italic:
     family: RobotoMono Nerd Font
     style: Italic
-  size: 16
+  size: 14
   offset:
     x: 0
     y: 0
