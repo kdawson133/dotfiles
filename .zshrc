@@ -128,3 +128,5 @@ fi
 # Exports
 export TERM=xterm-256color
 export EDITOR='/usr/bin/vim'
+export PAGER='most'
+
