@@ -110,6 +110,7 @@ source ~/.fonts/*.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias update="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && flatpak update"
+alias matrix='cmatrix -ba'
 alias q='exit'
 alias c='clear'
 alias t='terminator'
