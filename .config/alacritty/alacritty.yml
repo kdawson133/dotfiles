@@ -10,8 +10,8 @@
 # Window Customization
 window:
   dimensions:
-    columns: 140
-    lines: 38
+    columns: 120
+    lines: 34
   padding:
     x: 15
     y: 15
@@ -36,7 +36,7 @@ font:
   italic:
     family: Roboto Mono for Powerline
     style: Italic
-  size: 20
+  size: 18
   offset:
     x: 0
     y: 0
