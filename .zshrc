@@ -138,4 +138,6 @@ export PATH="$HOME/gems/bin:$PATH"
 export PATH="$HOME/Scripts:$PATH"
 # Other Exports
 export TERM=xterm-256color
+RANGER_LOAD_DEFAULT_RC=FALSE
+
 export EDITOR=/usr/bin/vim
