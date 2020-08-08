@@ -74,6 +74,8 @@ ZSH_THEME="agnoster"
 plugins=(
 	git
 	sublime
+    zsh-syntax-highlighting
+    zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
