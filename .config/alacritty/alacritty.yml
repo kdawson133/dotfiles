@@ -21,7 +21,7 @@ scrolling:
   history: 10000
   multiplier: 3
 
-background_opacity: 0.80
+background_opacity: 0.66
 
 window.dynamic_title: true
 
