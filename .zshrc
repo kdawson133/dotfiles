@@ -122,5 +122,6 @@ alias ll='ls -la'
 ## Show hidden files ##
 alias l.='ls -d .*'
 export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+export PAGER='/usr/local/bin/most'
 RANGER_LOAD_DEFAULT_RC=FALSE
 
