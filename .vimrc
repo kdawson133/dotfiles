@@ -22,12 +22,14 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
+set cursorline
 
 set colorcolumn=132
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'altercation/vim-colors-solarized'
 Plug 'arcticicestudio/nord-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree'
@@ -41,6 +43,10 @@ call plug#end()
 
 set background=dark
 colorscheme nord
+
+let g:lightline = {
+      \ 'colorscheme': 'nord',
+      \ }
 
 set laststatus=2
 
