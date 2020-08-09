@@ -22,6 +22,7 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
+set cursorline
 
 set colorcolumn=132
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -36,10 +37,16 @@ Plug 'mbbill/undotree'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'emmetio/emmet'
+Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
 colorscheme nord
 set background=dark
+
+let g:lightline = {
+    \ 'colorscheme': 'nord'
+    \ }
+
 set laststatus=2
 
