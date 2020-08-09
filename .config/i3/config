@@ -195,11 +195,16 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Window Colors
-set $bgcolor	#5365A2
-set $ibgcolor	#6A6A6A
-set $textcolor	#DADADA
-set $ubgcolor	#ff0000
-set $barcolor	#404040
+# Frost Medium Blue
+set $bgcolor	#5E81AC
+# Frost Teal
+set $ibgcolor	#88C0D0
+# Snow Storm Grey
+set $textcolor	#D8DEE9
+# Aurora Red
+set $ubgcolor	#BF616A 
+# Polar Night
+set $barcolor	#3b4252
 set $sepcolor	#6A6A6A
 
 #						Border		Background	Text		Indicator

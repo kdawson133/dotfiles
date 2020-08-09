@@ -115,13 +115,13 @@ export LANG=en_AU.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi=vim
 alias svi='sudo vim'
-alias zshrc="vim $HOME/.zshrc"
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
-alias dit="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
-alias ditpush="dit push origin iridium"
-alias t='terminator'
+alias zshrc='vim $HOME/.zshrc'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
+alias dit='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
+alias ditpush='dit push origin iridium'
+alias dst='dit status'
 alias q='exit'
-alias update="sudo pacman -Syu --noconfirm"
+alias update='sudo pacman -Syu --noconfirm'
 alias c='clear'
 alias i3='vim $HOME/.config/i3/config'
 alias ref-card='typora $HOME/.config/i3/i3-ref-card.md'
