@@ -29,6 +29,7 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 call plug#begin('~/.vim/plugged')
 
 Plug 'altercation/vim-colors-solarized'
+Plug 'arcticicestudio/nord-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree'
 Plug 'mbbill/undotree'
@@ -38,7 +39,7 @@ Plug 'emmetio/emmet'
 
 call plug#end()
 
-colorscheme solarized
+colorscheme nord
 set background=dark
 set laststatus=2
 
