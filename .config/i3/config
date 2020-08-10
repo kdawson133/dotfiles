@@ -179,8 +179,7 @@ mode "resize" {
         bindsym k resize grow height 10 px or 10 ppt
         bindsym l resize shrink height 10 px or 10 ppt
         bindsym semicolon resize grow width 10 px or 10 ppt
-
-        # same bindings, but for the arrow keys
+       # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
         bindsym Up resize shrink height 10 px or 10 ppt
@@ -251,7 +250,7 @@ bindsym $mod+F11 exec qutebrowser
 bindsym $mod+F1 exec terminator
 bindsym $mod+shift+F1 exec gnome-terminal 
 bindsym $mod+F2 exec firefox
-bindsym $mod+shift+F2 exec google-chrome-stable
+bindsym $mod+shift+F2 exec chromium
 bindsym $mod+F3 exec audacious
 bindsym $mod+shift+F3 exec vlc
 bindsym $mod+F4 exec mailspring

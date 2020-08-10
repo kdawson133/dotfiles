@@ -40,7 +40,7 @@ set nu
 set wrap
 set smartcase
 set spelllang=en_au 
-set spell
+set nospell
 set noswapfile
 set nobackup
 set undodir=~/.vim/undodir
@@ -62,4 +62,6 @@ set laststatus=2
 " ----- Key Mappings -----
 map <C-d> :NERDTreeToggle<CR>
 map <C-v> :EditVifm .<CR>
+map <F11> :set spell<CR>
+map <F12> :set nospell<CR>
 
