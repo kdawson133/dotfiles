@@ -17,7 +17,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'mbbill/undotree'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
-Plug 'emmetio/emmet'
+Plug 'mattn/emmet-vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'airblade/vim-gitgutter'
 Plug 'ap/vim-css-color'
@@ -56,6 +56,6 @@ let g:lightline = {
     \ }
 
 let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
-
+let g:user_emmet_mode='inv' 
 set laststatus=2
 
