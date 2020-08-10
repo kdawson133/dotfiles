@@ -7,25 +7,6 @@
 "
 " https://github.com/kdawson133 @kirk133
 "
-syntax on
-
-set noerrorbells
-set tabstop=4 softtabstop=4
-set shiftwidth=4
-set expandtab
-set smartindent
-set nu
-set nowrap
-set smartcase
-set noswapfile
-set nobackup
-set undodir=~/.vim/undodir
-set undofile
-set incsearch
-set cursorline
-
-set colorcolumn=132
-highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
 
@@ -38,8 +19,34 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'emmetio/emmet'
 Plug 'vim-syntastic/syntastic'
+Plug 'airblade/vim-gitgutter'
+Plug 'ap/vim-css-color'
+Plug 'tpope/vim-markdown'
 
 call plug#end()
+
+syntax on
+set encoding=UTF-8
+set wildmenu
+set noerrorbells
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set nu
+"set nowrap
+set smartcase
+set spelllang=en_au 
+set spell
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+set incsearch
+set cursorline
+
+set colorcolumn=132
+highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 colorscheme nord
 set background=dark
@@ -47,6 +54,8 @@ set background=dark
 let g:lightline = {
     \ 'colorscheme': 'nord'
     \ }
+
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
 
 set laststatus=2
 
