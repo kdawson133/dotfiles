@@ -7,6 +7,7 @@
 "
 " https://github.com/kdawson133 @kirk133
 "
+" ----- Plugins (vim-plug) -----
 
 call plug#begin('~/.vim/plugged')
 
@@ -17,6 +18,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'mbbill/undotree'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
+Plug 'vifm/vifm.vim'
 Plug 'mattn/emmet-vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'airblade/vim-gitgutter'
@@ -25,6 +27,7 @@ Plug 'tpope/vim-markdown'
 
 call plug#end()
 
+" ----- General Settings -----
 syntax on
 set encoding=UTF-8
 set wildmenu
@@ -34,7 +37,7 @@ set shiftwidth=4
 set expandtab
 set smartindent
 set nu
-"set nowrap
+set wrap
 set smartcase
 set spelllang=en_au 
 set spell
@@ -44,18 +47,19 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 set cursorline
-
 set colorcolumn=132
-highlight ColorColumn ctermbg=0 guibg=lightgrey
 
+highlight ColorColumn ctermbg=0 guibg=lightgrey
 colorscheme nord
 set background=dark
-
 let g:lightline = {
     \ 'colorscheme': 'nord'
     \ }
-
 let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
 let g:user_emmet_mode='inv' 
+let NERDTreeShowHidden=1
 set laststatus=2
+" ----- Key Mappings -----
+map <C-d> :NERDTreeToggle<CR>
+map <C-v> :EditVifm .<CR>
 
