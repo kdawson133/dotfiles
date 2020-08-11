@@ -125,5 +125,5 @@ if ! shopt -oq posix; then
   fi
 fi
 export EDITOR=/usr/bin/vim
-
+test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
 

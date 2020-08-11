@@ -15,7 +15,7 @@ set shiftwidth=4
 set expandtab
 set smartindent
 set nu
-set nowrap
+"set nowrap
 set smartcase
 set noswapfile
 set nobackup
@@ -29,16 +29,20 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 call plug#begin('~/.vim/plugged')
 
 Plug 'altercation/vim-colors-solarized'
+Plug 'arcticicestudio/nord-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree'
 Plug 'mbbill/undotree'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
-Plug 'emmetio/emmet'
+Plug 'mattn/emmet-vim'
 
 call plug#end()
 
-colorscheme solarized
+colorscheme nord
+let g:lightline = {
+    \ 'colorscheme': 'nord'
+    \ }
 set background=dark
 set laststatus=2
 
