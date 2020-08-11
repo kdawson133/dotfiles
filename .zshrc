@@ -137,6 +137,7 @@ fi
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
+PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 export PATH="$HOME/Scripts:$PATH"
 # Other Exports
 export TERM=xterm-256color
