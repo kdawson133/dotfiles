@@ -7,7 +7,7 @@
 "
 " https://github.com/kdawson133 @kirk133
 "
-" ----- Plugins (plug-vim)v -----
+" ----- Plugins (vim-plug) -----
 
 call plug#begin('~/.vim/plugged')
 
@@ -28,7 +28,6 @@ Plug 'tpope/vim-markdown'
 call plug#end()
 
 " ----- General Settings -----
-
 syntax on
 set encoding=UTF-8
 set wildmenu
@@ -41,7 +40,7 @@ set nu
 set wrap
 set smartcase
 set spelllang=en_au 
-set spell
+set nospell
 set noswapfile
 set nobackup
 set undodir=~/.vim/undodir
@@ -60,7 +59,9 @@ let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
 let g:user_emmet_mode='inv' 
 let NERDTreeShowHidden=1
 set laststatus=2
-
 " ----- Key Mappings -----
 map <C-d> :NERDTreeToggle<CR>
 map <C-v> :EditVifm .<CR>
+map <F11> :set spell<CR>
+map <F12> :set nospell<CR>
+
