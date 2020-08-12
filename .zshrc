@@ -107,9 +107,14 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vi=/usr/bin/vim
+alias svi='sudo vi'
+alias vim=/usr/local/bin/nvim
+alias svim='sudo vim'
 
 alias c="clear"
 alias q="exit"
+
 alias update="brew update && brew upgrade"
 alias dotfiles="/usr/local/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias dit="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
@@ -126,7 +131,8 @@ alias ll='ls -la'
 ## Show hidden files ##
 alias l.='ls -d .*'
 export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
-export PAGER='/usr/local/bin/most'
+export PAGER=/usr/local/bin/most
+export EDITOR=/usr/local/bin/nvim
 RANGER_LOAD_DEFAULT_RC=FALSE
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=245'
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=245'
 
