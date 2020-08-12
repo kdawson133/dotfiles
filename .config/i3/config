@@ -40,7 +40,7 @@ font pango:ubuntu 12
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty # terminator # gnome-terminal
+bindsym $mod+Return exec alacritty # terminator
 
 # lock screen
 bindsym $mod+x exec i3lock -c 285577
@@ -207,7 +207,6 @@ exec_always gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
 
 # Custom Keybindings
 bindsym $mod+F1 exec terminator
-bindsym $mod+shift+F1 gnome-terminal
 bindsym $mod+F2 exec firefox
 bindsym $mod+shift+F2 exec google-chrome-stable
 bindsym $mod+F3 exec audacious
