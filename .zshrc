@@ -113,8 +113,10 @@ export LANG=en_AU.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias vi=vim
-alias svi='sudo vim'
+alias vi=/usr/bin/vim
+alias svi='sudo vi'
+alias vim=/usr/bin/nvim
+alias svim='sudo vim'
 alias zshrc='vim $HOME/.zshrc'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 alias dit='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
