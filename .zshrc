@@ -116,11 +116,11 @@ alias matrix='cmatrix -ba'
 alias q='exit'
 alias c='clear'
 alias t='terminator'
-alias vi='vim'
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
-alias dit="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
-alias ditpush="dit push origin neon"
-alias dst="dit status"
+alias vi='nvim'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
+alias dit='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
+alias ditpush='dit push origin neon'
+alias dst='dit status'
 alias Serve='python3 -m http.server 8000 --bind 127.0.0.1'
 alias python='/usr/bin/python3'
 alias pip='/usr/bin/pip3'
@@ -131,6 +131,6 @@ if [ -d "$HOME/bin" ] ; then
 fi
 # Exports
 export TERM=xterm-256color
-export EDITOR='/usr/bin/vim'
+export EDITOR='/usr/bin/nvim'
 export PAGER='most'
 
