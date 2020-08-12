@@ -115,8 +115,10 @@ alias update="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y &
 alias matrix='cmatrix -ba'
 alias q='exit'
 alias c='clear'
-alias t='terminator'
-alias vi='nvim'
+alias vi=/usr/bin/vim
+alias svi='sudo vi'
+alias vim=/usr/bin/nvim
+alias svim='sudo vim'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 alias dit='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 alias ditpush='dit push origin neon'
