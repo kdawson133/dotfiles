@@ -204,12 +204,12 @@ for_window [class="^.*"] border pixel 2
 #}
 
 bar {   
-        font pango: Roboto Mono for Powerline 10
+        font pango: Roboto Mono for Powerline 08
         position bottom
         status_command $HOME/.local/bin/bumblebee-status \
 		-t iceberg-powerline \
-		-m playerctl disk memory cpu2 nic pasink pasource time date system \
-	    -p disk.format="{percent:3.00f}%" memory.format="{percent:3.00f}%" nic.states="^down" cpu2.layout="cpu2.cpuload" time.format="%H:%M:%S" time.interval=1s arch-update.interval=60m date.format="%d-%b-%y"
+		-m playerctl apt disk memory cpu2 nic pasink pasource time date system \
+	    -p disk.format="{percent:3.00f}%" memory.format="{percent:3.00f}%" nic.include="wlp4s0,enp0s10" nic.states="^down" nic.format="{intf} {state} {ip}" cpu2.layout="cpu2.cpuload" time.format="%H:%M:%S" time.interval=1s apt.interval=5m date.format="%d-%b-%y"
 }
 # Unlock Keyring on login 
 exec_always gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
