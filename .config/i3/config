@@ -227,7 +227,7 @@ bar {
 		#tray_output none
 		status_command bumblebee-status \
 		-t iceberg-powerline \
-		-m playerctl arch-update disk memory cpu2 nic pasink pasource time date system \
+		-m playerctl arch-update disk memory cpu2 pasink pasource time date system \
 	    -p disk.format="{percent:3.00f}%" memory.format="{percent:3.00f}%" nic.states="^down" cpu2.layout="cpu2.cpuload" time.format="%H:%M:%S" time.interval=1s arch-update.interval=5m date.format="%d-%b-%y"
         colors {
         		background $barcolor
