@@ -47,9 +47,10 @@ bindsym $mod+Return exec alacritty # terminator
 
 # Keybinding for i3lock-color
 bindsym $mod+x exec $HOME/.config/i3/scripts/lock.sh
+
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-# exec --no-startup-id nm-applet
+exec --no-startup-id nm-applet
 
 # kill focused window
 bindsym $mod+Shift+q kill
