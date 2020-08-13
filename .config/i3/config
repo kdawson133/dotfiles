@@ -43,8 +43,10 @@ floating_modifier $mod
 bindsym $mod+Return exec alacritty # terminator
 
 # lock screen
-bindsym $mod+x exec i3lock -c 285577
+#bindsym $mod+x exec i3lock -c 285577
 
+# Keybinding for i3lock-color
+bindsym $mod+x exec $HOME/.config/i3/scripts/lock.sh
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 # exec --no-startup-id nm-applet
@@ -204,10 +206,10 @@ for_window [class="^.*"] border pixel 2
 #}
 
 bar {   
-        font pango: Roboto Mono for Powerline 08
+        font pango: Roboto Mono for Powerline 10
         position bottom
         status_command $HOME/.local/bin/bumblebee-status \
-		-t iceberg-powerline \
+		-t iceberg \
 		-m playerctl apt disk memory cpu2 nic pasink pasource time date system \
 	    -p disk.format="{percent:3.00f}%" memory.format="{percent:3.00f}%" nic.include="wlp4s0,enp0s10" nic.states="^down" nic.format="{intf} {state} {ip}" cpu2.layout="cpu2.cpuload" time.format="%H:%M:%S" time.interval=1s apt.interval=5m date.format="%d-%b-%y"
 }
