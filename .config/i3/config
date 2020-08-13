@@ -209,7 +209,7 @@ bar {
         font pango: Roboto Mono for Powerline 12
         position bottom
         status_command $HOME/.local/bin/bumblebee-status \
-		-t iceberg-powerline \
+		-t nord-powerline \
 		-m playerctl disk memory cpu2 nic pasink pasource time date system \
 	    -p disk.format="{percent:3.00f}%" memory.format="{percent:3.00f}%" nic.include="wlp4s0,enp0s10" nic.states="^down" nic.format="{intf} {state}" cpu2.layout="cpu2.cpuload" time.format="%H:%M:%S" time.interval=1s date.format="%d-%b-%y"
 }
