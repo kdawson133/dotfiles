@@ -8,11 +8,10 @@
 #
 # https://github.com/kdawson133 @kirk133
 #
-
 B='#00000000'  # blank
 C='#ffffff22'  # clear ish
-D='#5365a2cc'  # default
-T='#5365a2ee'  # text
+D='#3B4252CC'  # Default
+T='#81A1C1EE'  # Text
 W='#880000bb'  # wrong
 V='#285577bb'  # verifying
 
