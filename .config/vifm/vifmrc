@@ -171,8 +171,11 @@ command! reload :write | restart
 " program.
 
 " Pdf
-filextype *.pdf zathura %c %i &, apvlv %c, xpdf %c
+filextype *.pdf zathura %c %i &, apvlv %c, xreader %c
 fileviewer *.pdf pdftotext -nopgbrk %c -
+
+" Epub
+filetype *.epub xreader %c
 
 " PostScript
 filextype *.ps,*.eps,*.ps.gz
