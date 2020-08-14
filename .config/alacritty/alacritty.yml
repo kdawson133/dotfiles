@@ -28,13 +28,13 @@ window.dynamic_title: true
 # Font Customization
 font:
   normal:
-    family: Roboto Mono for Powerline
+    family: Hack Nerd Font #Roboto Mono for Powerline
     style: Regular
   bold:
-    family: Roboto Mono for Powerline
+    family: Hack Nerd Font #Roboto Mono for Powerline
     style: Bold
   italic:
-    family: Roboto Mono for Powerline
+    family: Hack Nerd Font #Roboto Mono for Powerline
     style: Italic
   size: 18
   offset:
