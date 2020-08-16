@@ -118,6 +118,7 @@ alias svi='sudo vi'
 alias vim=/usr/bin/nvim
 alias svim='sudo vim'
 alias zshrc='vim $HOME/.zshrc'
+alias fm='pcmanfm'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 alias dit='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 alias ditpush='dit push origin iridium'

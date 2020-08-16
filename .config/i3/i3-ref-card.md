@@ -75,17 +75,20 @@
 
 
 ## Applications
+`Super+F1`          Alacritty
+`Super+shift+F1`    Terminator
+`Super+F2`          Firefox
+`Super+shift+F2`    Chromium
+`Super+F3`          Audacious
+`Super+shift+F3`    VLC
+`Super+F4`          Mailspring
+`Super+F5`          Sublime Text
+`Super+shift+F5`    Xed
+`Super+F6`          Sublime Merge
+`Super+F7`          Steam
+`Super+F8`          PcManFM
+`Super+shift+F8`    Nemo
+`Super+F9`          Virtualbox
+`Super+F10`         Spotify
+`Super+F11`         Qutebrowser
 
-`Super+F2` 			Firefox
-`Super+shift+F2` 	Google Chrome
-`Super+F3` 			Audacious
-`Super+shift+F3`	VLC
-`Super+F4` 			Mailspring
-`Super+F5` 			Sublime Text
-`Super+shift+F5`	Xed
-`Super+F6` 			Sublime Merge
-`Super+F7` 			Steam
-`Super+F8` 			PcManFM
-`Super+shift+F8` 	Nemo
-`Super+F9` 			Virtualbox
-`Super+F10`			Spotify

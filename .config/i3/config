@@ -246,9 +246,8 @@ exec_always setxkbmap us
 exec gnome-keyring-daemon --start --components=secrets
 
 # Custom Keybindings
-bindsym $mod+F11 exec qutebrowser
-bindsym $mod+F1 exec terminator
-bindsym $mod+shift+F1 exec gnome-terminal 
+bindsym $mod+F1 exec alacritty
+bindsym $mod+shift+F1 exec terminator 
 bindsym $mod+F2 exec firefox
 bindsym $mod+shift+F2 exec chromium
 bindsym $mod+F3 exec audacious
@@ -262,7 +261,7 @@ bindsym $mod+F8 exec pcmanfm
 bindsym $mod+shift+F8 exec nemo
 bindsym $mod+F9 exec virtualbox
 bindsym $mod+F10 exec spotify
-
+bindsym $mod+F11 exec qutebrowser 
 # Compositor
 exec_always picom -f
 
