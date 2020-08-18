@@ -207,7 +207,7 @@ for_window [class="^.*"] border pixel 2
 #}
 
 bar {   
-        font pango: Roboto Mono for Powerline 12
+        font pango: Roboto Mono for Powerline 11
         position bottom
         status_command $HOME/.local/bin/bumblebee-status \
 		-t nord-powerline \
