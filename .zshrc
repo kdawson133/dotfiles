@@ -119,11 +119,10 @@ alias vim=/usr/bin/nvim
 alias svim='sudo vim'
 alias zshrc='vim $HOME/.zshrc'
 alias fm='pcmanfm'
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 alias dit='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 alias ditpush='dit push origin iridium'
 alias dst='dit status'
-alias q='exit'
+alias q:='exit'
 alias update='sudo pacman -Syu --noconfirm'
 alias c='clear'
 alias i3='vim $HOME/.config/i3/config'
@@ -133,6 +132,7 @@ alias Serve='python3 -m http.server 8000 --bind 127.0.0.1'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -I'
+
 # set PATH so it includes user's private Script bin if it exists
 if [ -d "$HOME/Scripts" ] ; then
     PATH="$HOME/Scripts:$PATH"
