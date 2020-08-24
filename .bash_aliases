@@ -7,7 +7,7 @@
 #
 # https://github.com/kdawson133 @kirk133
 #
-alias update='sudo apt upgrade -y  && sudo apt dist-upgrade -y && sudo apt autoremove -y'
+alias update='sudo apt update && sudo apt dist-upgrade -y && sudo apt autoremove -y'
 alias c='clear'
 alias q='exit'
 alias poweroff='sudo poweroff'
@@ -20,3 +20,5 @@ alias trimlog='cat /var/log/trim.log'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias dit="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias ditpush='dit push origin oxygen'
+alias dst='dit status'
+
