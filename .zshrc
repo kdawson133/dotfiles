@@ -130,7 +130,7 @@ alias ref-card='typora $HOME/.config/i3/i3-ref-card.md'
 alias Serve='python3 -m http.server 8000 --bind 127.0.0.1'
 # youtube-dl
 alias yt-dla='youtube-dl -x --audio-format m4a'
-alias ty-dlv'youtube-dl -f mp4'
+alias yt-dlv='youtube-dl -f mp4'
 # Safety Features
 alias cp='cp -i'
 alias mv='mv -i'
