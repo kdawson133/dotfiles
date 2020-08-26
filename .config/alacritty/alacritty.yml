@@ -36,7 +36,7 @@ font:
   italic:
     family: Roboto Mono for Powerline
     style: Italic
-  size: 14
+  size: 12
   offset:
     x: 0
     y: 0
