@@ -123,6 +123,10 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 alias dit='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 alias ditpush='dit push origin neon'
 alias dst='dit status'
+# youtube-dl
+alias yt-dla='youtube-dl -x --audio-format m4a'
+alias yt-dlv='youtube-dl -f mp4'
+
 alias Serve='python3 -m http.server 8000 --bind 127.0.0.1'
 alias python='/usr/bin/python3'
 alias pip='/usr/bin/pip3'
