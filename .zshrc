@@ -124,7 +124,7 @@ alias dit='/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME'
 alias ditpush='dit push origin neon'
 alias dst='dit status'
 # youtube-dl
-alias yt-dla='youtube-dl -x --audio-format m4a'
+alias yt-dla="youtube-dl -f 'bestaudio[ext=m4a]'"
 alias yt-dlv='youtube-dl -f mp4'
 
 alias Serve='python3 -m http.server 8000 --bind 127.0.0.1'
