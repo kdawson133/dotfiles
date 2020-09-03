@@ -9,8 +9,10 @@
 [profiles]
   [[default]]
     background_color = "#2e3440"
+    background_darkness = 0.9
+    background_type = transparent
     cursor_color = "#aaaaaa"
-    font = Hack Nerd Font Mono 14
+    font = Hack Nerd Font Mono 12
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
