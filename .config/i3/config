@@ -213,7 +213,7 @@ client.focused_inactive	$ibgcolor	$ibgcolor	$textcolor	$ibgcolor
 client.urgent			$ubgcolor	$ubgcolor	$textcolor	$ubgcolor
 
 # i3 Gaps
-gaps inner 20
+gaps inner 10
 gaps outer 5
 
 # Remove title bar
@@ -248,8 +248,8 @@ exec gnome-keyring-daemon --start --components=secrets
 # Custom Keybindings
 bindsym $mod+F1 exec alacritty
 bindsym $mod+shift+F1 exec terminator 
-bindsym $mod+F2 exec qutebrowser
-bindsym $mod+shift+F2 exec firefox
+bindsym $mod+F2 exec firefox
+bindsym $mod+shift+F2 exec chromium
 bindsym $mod+F3 exec clementine
 bindsym $mod+shift+F3 exec vlc
 bindsym $mod+F4 exec mailspring
@@ -279,7 +279,7 @@ exec --no-startup-id /usr/bin/nextcloud
 exec --no-startup-id /usr/bin/blueman-applet
 
 # Assign Programs to Workspaces
-for_window [class="qutebrowser"] move to workspace $ws2
+for_window [class="firefox"] move to workspace $ws2
 for_window [class="Spotify"] move to workspace $ws3
 for_window [class="Clementine"] move to workspace $ws3
 for_window [class="vlc"] move to workspace $ws3
