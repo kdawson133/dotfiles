@@ -263,7 +263,7 @@ bindsym $mod+F9 exec virtualbox
 bindsym $mod+F10 exec spotify
 bindsym $mod+F11 exec chromium 
 # Compositor
-exec_always picom -f --vsync
+exec_always picom -f --vsync --backend glx --xrender-sync-fence
 
 # Wallpaper
 exec_always feh --bg-fill $HOME/.config/i3/Fractal-6.jpg
